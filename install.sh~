@@ -52,10 +52,6 @@ do
 	key="$1"
 
 	case "$key" in
-		-h|--help)
-			help
-			exit
-			;;
 		-b|--backup)
 			FILE="$2"
 			[[ -z $FILE ]] && arg_err "b"
